@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="AmbulanceClient" project="KwikMedicalPrototype" 
+    file="/KwikMedicalPrototype/src/AmbulanceClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="156" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="HospitalServer" project="KwikMedicalPrototype" 
+    file="/KwikMedicalPrototype/src/HospitalServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="735" y="85"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="IKwikMedical" project="KwikMedicalPrototype" 
+    file="/KwikMedicalPrototype/src/IKwikMedical.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="152" width="249" x="415" y="237"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="KwikMedical" project="KwikMedicalPrototype" 
+    file="/KwikMedicalPrototype/src/KwikMedical.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="155" width="214" x="431" y="37"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="OperatorClient" project="KwikMedicalPrototype" 
+    file="/KwikMedicalPrototype/src/OperatorClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="317" y="121"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="SqlQueries" project="KwikMedicalPrototype" 
+    file="/KwikMedicalPrototype/src/SqlQueries.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="532" y="487"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="SqlUpdate" project="KwikMedicalPrototype" 
+    file="/KwikMedicalPrototype/src/SqlUpdate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="192" y="327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="SqlInsert" project="KwikMedicalPrototype" 
+    file="/KwikMedicalPrototype/src/SqlInsert.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="193" y="460"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="9">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
